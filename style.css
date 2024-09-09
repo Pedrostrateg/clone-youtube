@@ -1,0 +1,138 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+}
+
+header .menu{
+    left: 25px;
+    padding:  10px 20px 8px 20px;
+}
+
+header .logo{
+     padding: 5px 20px 10px 10px;
+}
+
+header .center{
+    border: 1px solid #ccc;
+    width: 404px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+header .center input{
+    width: 350px;
+    height: 30px;
+    border: none;
+    outline: none;
+}
+
+header .center button{
+    width: 57px;
+    height: 40px;
+    top: 8px;
+    left: 873px;
+    border: 1px solid #CCCCCC
+}
+
+header .video{
+    padding: 10px;
+}
+
+header .sino{
+    padding: 10px;
+}
+
+header .perfil{
+    padding: 10px 20px 10px 18px;
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 80px;
+    margin-top: 25px;
+}
+
+main .player article{
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+main .canal{
+    display: flex;
+    margin-right: 40px;
+    height: 40px;
+}
+
+.inscrever{
+    margin-right: 50px;
+    height: 40px;
+}
+
+.curtir{
+    margin-right: 50px;
+    margin-bottom: 10px;
+    height: 25px;
+}
+    
+.não-gostar{
+    margin-right: 50px;
+    margin-bottom: 10px;
+    height: 25px;
+}
+
+.compartilhar{
+    margin-right: 50px;
+    margin-bottom: 10px;
+    height: 25px;
+}
+
+.baixar{
+    margin-right: 50px;
+    margin-bottom: 10px;
+    height: 25px;
+}
+
+aside{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   margin-right: 200px;
+   margin-left: 50px;
+}
+
+aside section{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.text1{
+    margin: 5px;
+    font-weight: bold;
+    font-size: 14px;
+
+}
+
+.text{
+    margin: 5px;
+    font-size: 12px;
+}
+
+.imagemlado{
+    height: 130px; 
+}
+
